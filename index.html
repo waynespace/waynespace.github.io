@@ -10,7 +10,6 @@
             margin: 0;
             padding: 0;
             background-color: #f7f7f7;
-            transition: background-color 0.3s;
         }
         .header {
             background-color: #333;
@@ -24,56 +23,56 @@
         .bookmarks-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             padding: 20px;
-            transition: transform 0.3s, opacity 0.3s;
         }
         .bookmark {
-            background-color: #ffffff; /* 背景颜色 */
-            border: 1px solid #ddd;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             margin: 10px;
-            padding: 20px;
-            box-sizing: border-box;
-            border-radius: 8px; /* 圆角边框 */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
-            transition: transform 0.3s, box-shadow 0.3s;
-            opacity: 0; /* 初始化为不可见 */
-            transform: translateY(20px); /* 初始状态向下移动 */
-        }
-        .bookmark a {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-decoration: none;
             color: #333;
-            font-weight: bold;
+            overflow: hidden;
+        }
+        .bookmark-icon {
+            width: 48px;
+            height: 48px;
+            background-size: cover;
+            margin-bottom: 5px;
+        }
+        .bookmark-title {
+            font-size: 12px;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 90px;
         }
         /* 悬停效果 */
         .bookmark:hover {
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            transform: translateY(-5px); /* 上移效果 */
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
-        /* 动画效果让书签卡片逐个加载显示 */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        .bookmark:nth-child(1) { animation: fadeInUp 0.5s 0.5s forwards; }
-        .bookmark:nth-child(2) { animation: fadeInUp 0.5s 0.6s forwards; }
-        .bookmark:nth-child(3) { animation: fadeInUp 0.5s 0.7s forwards; }
-        .bookmark:nth-child(4) { animation: fadeInUp 0.5s 0.8s forwards; }
-        /* ...以此类推，为每个书签设置不同的动画开始时间... */
     </style>
 </head>
 <body>
     <div class="header">
         <h1>我的书签</h1>
     </div>
-    <div class="bookmarks-container" id="bookmark-list">
-        <!-- JavaScript 将动态填充书签 -->
+    <div class="bookmarks-container">
+        <!-- 示例书签 -->
+        <a href="https://example.com" class="bookmark">
+            <div class="bookmark-icon" style="background-image: url('https://example.com/favicon.ico');"></div>
+            <div class="bookmark-title">Example</div>
+        </a>
+        <!-- 通过JavaScript动态添加更多书签 -->
     </div>
     <script src="script.js"></script>
 </body>
