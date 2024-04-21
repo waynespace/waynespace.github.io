@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>�ҵ���ǩ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的书签</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 10px 0; }
-        a { text-decoration: none; color: blue; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #f2f2f2; padding: 10px 20px; text-align: center; }
+        .header h1 { margin: 0; }
+        .bookmarks-container { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
+        .bookmark { border: 1px solid #ddd; margin-bottom: 10px; width: calc(20% - 40px); padding: 10px; box-sizing: border-box; }
+        .bookmark a { text-decoration: none; color: #333; font-weight: bold; }
+        @media (max-width: 600px) {
+            .bookmark { width: calc(50% - 40px); }
+        }
     </style>
 </head>
 <body>
-    <h1>�ҵ���ǩ</h1>
-    <ul id="bookmark-list"></ul>
+    <div class="header">
+        <h1>我的书签</h1>
+    </div>
+    <div class="bookmarks-container" id="bookmark-list">
+        <!-- JavaScript 将动态填充书签 -->
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
