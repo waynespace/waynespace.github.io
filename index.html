@@ -5,60 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的书签</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
-        .header {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-        .header h1 {
-            margin: 0;
-            color: white;
-        }
-        .bookmarks-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; }
+        .header { background-color: #333; padding: 20px; text-align: center; }
+        .header h1 { margin: 0; color: white; }
+        .bookmarks-container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: stretch; padding: 20px; }
         .bookmark {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            flex: 1 1 180px; /* flex grow, flex shrink, flex basis */
+            border: 1px solid #ddd;
             margin: 10px;
-            width: 90px;
-            height: 90px;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s; /* 添加变换过渡效果 */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            word-wrap: break-word;
+            min-height: 100px;
+            border-radius: 4px; /* 卡片圆角 */
+            overflow: hidden; /* 防止内容溢出 */
             display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+        }
+        .bookmark:hover {
+            transform: translateY(-5px); /* 上移效果 */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* 悬停时阴影效果 */
+        }
+        .bookmark a {
             text-decoration: none;
             color: #333;
-            overflow: hidden;
-        }
-        .bookmark-icon {
-            width: 48px;
-            height: 48px;
-            background-size: cover;
-            margin-bottom: 5px;
-        }
-        .bookmark-title {
-            font-size: 12px;
+            font-size: 16px;
             text-align: center;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            width: 90px;
         }
-        /* 悬停效果 */
-        .bookmark:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        @media (max-width: 600px) {
+            .bookmark { flex: 1 1 calc(50% - 20px); }
         }
     </style>
 </head>
@@ -66,12 +45,10 @@
     <div class="header">
         <h1>我的书签</h1>
     </div>
-    <div class="bookmarks-container">
-        <!-- 动态书签卡片将在这里被JavaScript脚本生成 -->
+    <div class="bookmarks-container" id="bookmark-list">
+        <!-- JavaScript 将动态填充书签 -->
     </div>
-    <!-- 首先引用script.js -->
     <script src="script.js"></script>
-    <!-- 然后引用bookmarks.js来动态生成书签 -->
-    <script src="bookmarks.js"></script>
 </body>
 </html>
+
