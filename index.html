@@ -5,40 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的书签</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; }
-        .header { background-color: #333; padding: 20px; text-align: center; }
-        .header h1 { margin: 0; color: white; }
-        .bookmarks-container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: stretch; padding: 20px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            transition: background-color 0.3s;
+        }
+        .header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            color: white;
+        }
+        .bookmarks-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
         .bookmark {
-            flex: 1 1 180px; /* flex grow, flex shrink, flex basis */
+            background-color: #ffffff; /* 背景颜色 */
             border: 1px solid #ddd;
             margin: 10px;
-            padding: 10px;
+            padding: 20px;
             box-sizing: border-box;
-            background-color: #fff;
-            transition: transform 0.3s, box-shadow 0.3s; /* 添加变换过渡效果 */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            word-wrap: break-word;
-            min-height: 100px;
-            border-radius: 4px; /* 卡片圆角 */
-            overflow: hidden; /* 防止内容溢出 */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .bookmark:hover {
-            transform: translateY(-5px); /* 上移效果 */
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* 悬停时阴影效果 */
+            border-radius: 8px; /* 圆角边框 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
+            transition: transform 0.3s, box-shadow 0.3s;
+            opacity: 0; /* 初始化为不可见 */
+            transform: translateY(20px); /* 初始状态向下移动 */
         }
         .bookmark a {
             text-decoration: none;
             color: #333;
-            font-size: 16px;
-            text-align: center;
+            font-weight: bold;
         }
-        @media (max-width: 600px) {
-            .bookmark { flex: 1 1 calc(50% - 20px); }
+        /* 悬停效果 */
+        .bookmark:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px); /* 上移效果 */
         }
+        /* 动画效果让书签卡片逐个加载显示 */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .bookmark:nth-child(1) { animation: fadeInUp 0.5s 0.5s forwards; }
+        .bookmark:nth-child(2) { animation: fadeInUp 0.5s 0.6s forwards; }
+        .bookmark:nth-child(3) { animation: fadeInUp 0.5s 0.7s forwards; }
+        .bookmark:nth-child(4) { animation: fadeInUp 0.5s 0.8s forwards; }
+        /* ...以此类推，为每个书签设置不同的动画开始时间... */
     </style>
 </head>
 <body>
