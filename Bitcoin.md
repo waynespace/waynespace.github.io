@@ -1,1 +1,1 @@
-Bitcoin.list
+#Bitcoin规则
