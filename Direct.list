@@ -12,9 +12,6 @@ DOMAIN-SUFFIX,esimplus.me
 # 微信
 PROCESS-NAME,WeChat
 PROCESS-NAME,WeChat.exe
-# Clash Verge
-PROCESS-NAME,Clash Verge
-PROCESS-NAME,Clash Verge.exe
 # BookxNotePro
 PROCESS-NAME,BookxNotePro
 PROCESS-NAME,BookxNotePro.exe
