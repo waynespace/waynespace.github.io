@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,ankiweb.net
 DOMAIN-SUFFIX,esimplus.me
 
-# 应用程序名称匹配
+# 应用程序匹配
 PROCESS-NAME,WeChat
 PROCESS-NAME,WeChat.exe
 PROCESS-NAME,BookxNotePro
