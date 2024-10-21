@@ -9,10 +9,60 @@ DOMAIN-SUFFIX,ankiweb.net
 DOMAIN-SUFFIX,esimplus.me
 
 # 应用程序名称匹配
+# 微信
 PROCESS-NAME,WeChat
 PROCESS-NAME,WeChat.exe
+# Clash Verge
 PROCESS-NAME,Clash Verge
 PROCESS-NAME,Clash Verge.exe
+# BookxNotePro
+PROCESS-NAME,BookxNotePro
+PROCESS-NAME,BookxNotePro.exe
+# ToDesk
+PROCESS-NAME,ToDesk
+PROCESS-NAME,ToDesk.exe
+# 坚果云
+PROCESS-NAME,NutstoreClient
+PROCESS-NAME,NutstoreClient.exe
+# 中国移动云盘
+PROCESS-NAME,mCloud
+PROCESS-NAME,mCloud.exe
+# WPS-Word
+PROCESS-NAME,wps
+PROCESS-NAME,wps.exe
+# WPS-Excel
+PROCESS-NAME,et
+PROCESS-NAME,et.exe
+# WPS-PPT
+PROCESS-NAME,wpp
+PROCESS-NAME,wpp.exe
+# WPS-PDF
+PROCESS-NAME,wpspdf
+PROCESS-NAME,wpspdf.exe
+# WPS服务
+PROCESS-NAME,wpscloudsvr
+PROCESS-NAME,wpscloudsvr.exe
+# QQ
+PROCESS-NAME,QQ
+PROCESS-NAME,QQ.exe
+# iTunes
+PROCESS-NAME,iTunes
+PROCESS-NAME,iTunes.exe
+# Speedtest
+PROCESS-NAME,Speedtest
+PROCESS-NAME,Speedtest.exe
+# 奥维互动浏览器
+PROCESS-NAME,omap
+PROCESS-NAME,omap.exe
+# 谷谷GIS地图下载器
+PROCESS-NAME,谷谷GIS地图下载器
+PROCESS-NAME,谷谷GIS地图下载器.exe
+# 腾讯会议
+PROCESS-NAME,WeMeetApp
+PROCESS-NAME,WeMeetApp.exe
+# Windows商店
+PROCESS-NAME,WinStore.App
+PROCESS-NAME,WinStore.App.exe
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
