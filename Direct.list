@@ -8,6 +8,12 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,ankiweb.net
 DOMAIN-SUFFIX,esimplus.me
 
+# 应用程序名称匹配
+PROCESS-NAME,WeChat
+PROCESS-NAME,WeChat.exe
+PROCESS-NAME,Clash Verge
+PROCESS-NAME,Clash Verge.exe
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 
