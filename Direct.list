@@ -47,7 +47,6 @@ PROCESS-NAME,谷谷GIS地图下载器.exe
 DOMAIN-KEYWORD,baidu
 
 # IP段匹配
-IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,192.168.1.2/32,no-resolve
 
 # 国内DNS
