@@ -42,6 +42,10 @@ PROCESS-NAME,WinStore.App
 PROCESS-NAME,WinStore.App.exe
 PROCESS-NAME,谷谷GIS地图下载器
 PROCESS-NAME,谷谷GIS地图下载器.exe
+PROCESS-NAME,alist
+PROCESS-NAME,alist.exe
+PROCESS-NAME,alist-desktop
+PROCESS-NAME,alist-desktop.exe
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
