@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
 
 # T-Mobile  WiFi Calling US
+
+DOMAIN-SUFFIX,t-mobile.com
+
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc316.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc010.mcc316.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc010.mcc316.pub.3gppnetwork.org
