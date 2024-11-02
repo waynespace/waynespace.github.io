@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,ankiweb.net
 DOMAIN-SUFFIX,esimplus.me
+DOMAIN-SUFFIX,gab.122.gov.cn
 
 # 应用程序匹配
 PROCESS-NAME,WeChat
