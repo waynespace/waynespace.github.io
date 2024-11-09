@@ -49,6 +49,14 @@ PROCESS-NAME,alist
 PROCESS-NAME,alist.exe
 PROCESS-NAME,alist-desktop
 PROCESS-NAME,alist-desktop.exe
+PROCESS-NAME,FCNS_x64
+PROCESS-NAME,FCNS_x64.exe
+PROCESS-NAME,softwarestoredaemon
+PROCESS-NAME,softwarestoredaemon.exe
+PROCESS-NAME,FCNSAndDeskServer
+PROCESS-NAME,FCNSAndDeskServer.exe
+PROCESS-NAME,IceDisplay
+PROCESS-NAME,IceDisplay.exe
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
