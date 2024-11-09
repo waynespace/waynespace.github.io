@@ -57,6 +57,18 @@ PROCESS-NAME,FCNSAndDeskServer
 PROCESS-NAME,FCNSAndDeskServer.exe
 PROCESS-NAME,IceDisplay
 PROCESS-NAME,IceDisplay.exe
+PROCESS-NAME,ChsIME
+PROCESS-NAME,ChsIME.exe
+PROCESS-NAME,ViLin
+PROCESS-NAME,ViLin.exe
+PROCESS-NAME,CefSharp.BrowserSubprocess
+PROCESS-NAME,CefSharp.BrowserSubprocess.exe
+PROCESS-NAME,FCNS
+PROCESS-NAME,FCNS.exe
+PROCESS-NAME,MpDefenderCoreService
+PROCESS-NAME,MpDefenderCoreService.exe
+PROCESS-NAME,AssistantService
+PROCESS-NAME,AssistantService.exe
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
