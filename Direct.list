@@ -69,6 +69,8 @@ PROCESS-NAME,MpDefenderCoreService
 PROCESS-NAME,MpDefenderCoreService.exe
 PROCESS-NAME,AssistantService
 PROCESS-NAME,AssistantService.exe
+PROCESS-NAME,MsMpEng
+PROCESS-NAME,MsMpEng.exe
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
