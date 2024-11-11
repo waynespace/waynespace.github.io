@@ -200,6 +200,8 @@ DOMAIN-SUFFIX,adobe.com
 
 DOMAIN-SUFFIX,v2ex.com
 
+DOMAIN-SUFFIX,discord.com
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,scholar
 DOMAIN-KEYWORD,Google
