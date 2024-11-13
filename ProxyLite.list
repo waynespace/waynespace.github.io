@@ -3,8 +3,6 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,m.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,gmail.com
