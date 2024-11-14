@@ -11,6 +11,10 @@ DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,beta.openai.com
 DOMAIN-SUFFIX,help.openai.com
+DOMAIN-SUFFIX,tcr9i.chat.openai.com
+DOMAIN-SUFFIX,files.oaiusercontent.com
+DOMAIN-SUFFIX,ab.chatgpt.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN-SUFFIX,openai.com/research
 DOMAIN-SUFFIX,openai.com/blog
 DOMAIN-SUFFIX,openai.com/dall-e
