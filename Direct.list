@@ -25,6 +25,11 @@ DOMAIN-SUFFIX,esimplus.me
 DOMAIN-SUFFIX,gab.122.gov.cn
 DOMAIN-SUFFIX,111.63.208.196:8080/zcpsqd/home
 DOMAIN-SUFFIX,dabian.hebjxjy.net
+DOMAIN-SUFFIX,classical-api.music.apple.com
+DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,finance-app.itunes.apple.com
+DOMAIN-SUFFIX,p24-buy.itunes.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
 
 # 应用程序匹配
 PROCESS-NAME,WeChat
