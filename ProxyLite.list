@@ -2,6 +2,7 @@
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,m.google.com
+DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,android.clients.google.com
 DOMAIN-SUFFIX,tunnel.googlezip.net
