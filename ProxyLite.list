@@ -267,6 +267,18 @@ DOMAIN-SUFFIX,v2ex.com
 
 DOMAIN-SUFFIX,discord.com
 
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,ovofast.com
+DOMAIN-SUFFIX,bityun.org
+DOMAIN-SUFFIX,ikuajing.net
+DOMAIN-SUFFIX,bgp.he.net
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ip2world.com
+DOMAIN-SUFFIX,itangtalk.com
+DOMAIN-SUFFIX,taohao.me
+DOMAIN-SUFFIX,etsy.com
+DOMAIN-SUFFIX,dual-subtitles.com
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,scholar
 DOMAIN-KEYWORD,Google
