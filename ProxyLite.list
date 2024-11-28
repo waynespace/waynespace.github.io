@@ -286,11 +286,8 @@ DOMAIN-SUFFIX,metrics.cloudflare.com
 DOMAIN-SUFFIX,verify.cloudflare.com
 
 DOMAIN-SUFFIX,adobe.com
-
 DOMAIN-SUFFIX,v2ex.com
-
 DOMAIN-SUFFIX,discord.com
-
 DOMAIN-SUFFIX,heygen.com
 DOMAIN-SUFFIX,ovofast.com
 DOMAIN-SUFFIX,bityun.org
@@ -306,6 +303,7 @@ DOMAIN-SUFFIX,proxy-cheap.com
 DOMAIN-SUFFIX,app.proxy-cheap.com
 DOMAIN-SUFFIX,kookeey.com
 DOMAIN-SUFFIX,aait.io
+DOMAIN-SUFFIX,wiki.metacubex.one
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,scholar
