@@ -178,13 +178,13 @@ DOMAIN-SUFFIX,syndication.twitter.com
 DOMAIN-SUFFIX,platform.twitter.com
 DOMAIN-SUFFIX,analytics.twitter.com
 
+DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,objects.githubusercontent.com
 DOMAIN-SUFFIX,api.github.com
 DOMAIN-SUFFIX,collector.github.com
 DOMAIN-SUFFIX,alive.github.com
 DOMAIN-SUFFIX,avatars.githubusercontent.com
 DOMAIN-SUFFIX,github.githubassets.com
-DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,user-images.githubusercontent.com
 DOMAIN-SUFFIX,gist.githubusercontent.com
