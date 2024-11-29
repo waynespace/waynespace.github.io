@@ -1,4 +1,6 @@
 ﻿# 域名后缀匹配
+#双ISP检测
+DOMAIN-SUFFIX,ipinfo.io
 #电商平台
 DOMAIN-SUFFIX,amazon.co.uk
 DOMAIN-SUFFIX,amazon.de
