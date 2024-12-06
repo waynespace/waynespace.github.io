@@ -2,6 +2,7 @@
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,m.google.com
+DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,android.clients.google.com
@@ -178,6 +179,7 @@ DOMAIN-SUFFIX,syndication.twitter.com
 DOMAIN-SUFFIX,platform.twitter.com
 DOMAIN-SUFFIX,analytics.twitter.com
 
+DOMAIN-SUFFIX,github.com/waynespace?tab=stars
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,objects.githubusercontent.com
 DOMAIN-SUFFIX,api.github.com
