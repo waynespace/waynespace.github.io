@@ -7,6 +7,7 @@ DOMAIN-KEYWORD,Claude
 # 域名后缀匹配
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,beta.openai.com
