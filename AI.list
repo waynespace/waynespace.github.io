@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,videos.openai.com
+DOMAIN-SUFFIX,sora-cdn.oaistatic.com
+DOMAIN-SUFFIX,ab.chatgpt.com
+DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,beta.openai.com
 DOMAIN-SUFFIX,help.openai.com
@@ -37,6 +41,24 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
+
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,dash.cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,resolver.cloudflare.com
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,cdn-cgi.com
+DOMAIN-SUFFIX,static.cloudflareinsights.com
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,workers.cloudflare.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,warp.cloudflare.com
+DOMAIN-SUFFIX,security.cloudflare-dns.com
+DOMAIN-SUFFIX,challenge.cloudflare.com
+DOMAIN-SUFFIX,turnstile.cloudflare.com
+DOMAIN-SUFFIX,metrics.cloudflare.com
+DOMAIN-SUFFIX,verify.cloudflare.com
 
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,ai.google.dev
