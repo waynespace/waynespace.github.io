@@ -268,23 +268,7 @@ DOMAIN-SUFFIX,dns.google.com
 DOMAIN-SUFFIX,web.telegram.org
 DOMAIN-SUFFIX,telegram-cdn.org
 
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,dash.cloudflare.com
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,resolver.cloudflare.com
-DOMAIN-SUFFIX,cdn.cloudflare.net
-DOMAIN-SUFFIX,cdn-cgi.com
-DOMAIN-SUFFIX,static.cloudflareinsights.com
-DOMAIN-SUFFIX,api.cloudflare.com
-DOMAIN-SUFFIX,workers.cloudflare.com
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,warp.cloudflare.com
-DOMAIN-SUFFIX,security.cloudflare-dns.com
-DOMAIN-SUFFIX,challenge.cloudflare.com
-DOMAIN-SUFFIX,turnstile.cloudflare.com
-DOMAIN-SUFFIX,metrics.cloudflare.com
-DOMAIN-SUFFIX,verify.cloudflare.com
+DOMAIN-SUFFIX,s.gravatar.com
 
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,v2ex.com
