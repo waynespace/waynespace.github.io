@@ -8,6 +8,7 @@ DOMAIN-KEYWORD,Claude
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,beta.openai.com
