@@ -163,6 +163,24 @@ DOMAIN-SUFFIX,google.com.ua
 DOMAIN-SUFFIX,google.com.uy
 DOMAIN-SUFFIX,google.com.vn
 
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,dash.cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,resolver.cloudflare.com
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,cdn-cgi.com
+DOMAIN-SUFFIX,static.cloudflareinsights.com
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,workers.cloudflare.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,warp.cloudflare.com
+DOMAIN-SUFFIX,security.cloudflare-dns.com
+DOMAIN-SUFFIX,challenge.cloudflare.com
+DOMAIN-SUFFIX,turnstile.cloudflare.com
+DOMAIN-SUFFIX,metrics.cloudflare.com
+DOMAIN-SUFFIX,verify.cloudflare.com
+
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,api.twitter.com
