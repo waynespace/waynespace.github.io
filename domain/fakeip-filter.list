@@ -139,7 +139,6 @@ msftconnecttest.com
 msftncsi.com
 +.msftconnecttest.com
 +.msftncsi.com
-# ====== 以下为帮您补充的国内主流应用与大厂服务 ======
 # 百度系（补漏）
 +.baidu.com
 +.baidubce.com
@@ -199,4 +198,3 @@ msftncsi.com
 +.boc.cn
 # 常用测速与网络排查
 +.speedtest.net
-# ================= 补充结束 =================
