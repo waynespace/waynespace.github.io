@@ -139,3 +139,65 @@ msftconnecttest.com
 msftncsi.com
 +.msftconnecttest.com
 +.msftncsi.com
+geosite:cn
+# ====== 以下为帮您补充的国内主流应用与大厂服务 ======
+# 百度系（补漏）
++.baidu.com
++.baidubce.com
++.bdimg.com
++.bdstatic.com
+# 阿里系（淘宝、天猫、支付宝、高德、闲鱼、夸克）
++.taobao.com
++.tmall.com
++.alicdn.com
++.alipay.com
++.alipayobjects.com
++.amap.com
++.gaode.com
++.cainiao.com
++.xianyu.cn
+# 腾讯系（补漏：微信/QQ部分核心与静态资源、企业微信）
++.qq.com
++.tencent.com
++.gtimg.com
++.qlogo.cn
++.qpic.cn
++.weixin.com
++.work.weixin.qq.com
+# 字节跳动系（抖音、今日头条、西瓜视频、飞书）
++.douyin.com
++.snssdk.com
++.amemv.com
++.toutiao.com
++.pstatp.com
++.feishu.cn
+# 美团系 & 大众点评
++.meituan.com
++.meituan.net
++.dpfile.com
++.dianping.com
+# 京东系
++.jd.com
++.360buyimg.com
++.jcloud.com
+# PDD 拼多多
++.pinduoduo.com
++.yangkeduo.com
+# 手机厂本地服务与系统更新（华为、OPPO、VIVO、小米补漏）
++.huawei.com
++.honor.com
++.oppo.com
++.oppomobile.com
++.vivo.com
++.vivoglobal.com
++.mi-img.com
++.miui.com
+# 国内政务与常用银行（工行、建行、农行、中行）
++.gov.cn
++.icbc.com.cn
++.ccb.com
++.abchina.com
++.boc.cn
+# 常用测速与网络排查
++.speedtest.net
+# ================= 补充结束 =================
